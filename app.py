@@ -59,7 +59,7 @@ st.write("Toca el Botón y habla ")
 # Botón de reconocimiento de voz
 stt_button = Button(label="Inicio", width=200)
 
-stt_button.js_on_event("button_click", CustomJS(code="""
+stt_button.js_on_event("Fondo.png", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
     recognition.continuous = true;
     recognition.interimResults = true;
