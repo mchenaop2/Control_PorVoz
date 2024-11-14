@@ -31,7 +31,7 @@ client1.on_message = on_message
 st.title("Control por voz")
 
 
-image = Image.open('voice_ctrl.jpg')
+image = Image.open('Control por voz.png')
 
 st.image(image, width=200)
 
