@@ -102,6 +102,4 @@ if result:
         pass
 
 
-with st.sidebar:
-    if st.button("Atrás"):
-        st.link_button("Home", "https://proyecto-final-ztvtetttkapfwq74usy7u6.streamlit.app/")
+
