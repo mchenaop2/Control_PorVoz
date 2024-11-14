@@ -96,7 +96,7 @@ if result:
         ret = client1.publish("camila_control", message)
 
 
- with st.sidebar:
+with st.sidebar:
     if st.button("Atrás"):
          st.link_button("Home", "https://proyecto-final-ztvtetttkapfwq74usy7u6.streamlit.app/")
 
