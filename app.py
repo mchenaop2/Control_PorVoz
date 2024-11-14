@@ -95,9 +95,10 @@ if result:
         message = json.dumps({"Act1": result.get("GET_TEXT").strip()})
         ret = client1.publish("camila_control", message)
 
+
  with st.sidebar:
     if st.button("Atrás"):
-        st.link_button("Home", "https://proyecto-final-ztvtetttkapfwq74usy7u6.streamlit.app/")
+         st.link_button("Home", "https://proyecto-final-ztvtetttkapfwq74usy7u6.streamlit.app/")
 
     # Crear directorio temporal si no existe
     try:
